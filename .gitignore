@@ -1,0 +1,46 @@
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Laravel 4 specific
+bootstrap/compiled.php
+app/storage/
+
+# Laravel 5 & Lumen specific
+public/storage
+public/hot
+public/css
+public/js
+public/fonts
+public/images
+public/img
+public/sounds
+public/vendor
+public/webfonts
+public/mix-manifest.json
+public/manifest.json
+public/sw.js
+
+
+# Laravel 5 & Lumen specific with changed public path
+public_html/storage
+public_html/hot
+
+storage/*.key
+.env
+.env.backup
+
+Homestead.yaml
+Homestead.json
+/.vagrant
+.phpunit.result.cache
+laravel-echo-server.json
+laravel-echo-server.lock
+
+#nohup.out
+/bitcoin-0.20.0/bin/nohup.out
+/bitcoin-abc-0.21.8/bin/nohup.out
+/dogecoin-1.14.2/bin/nohup.out
+/geth-linux-amd64-1.9.15-0f77f34b/bin/nohup.out
+/litecoin-0.17.1/bin/nohup.out
